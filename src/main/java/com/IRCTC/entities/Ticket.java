@@ -1,11 +1,12 @@
 package com.IRCTC.entities;
-
 import java.util.Date;
 
-public class Ticket {
-    private String ticketid;
+public class Ticket
+{
+    private String ticketId;
+    private String userId;
     private String source;
     private String destination;
-    private Date dateoftravel;
-    
+    private Date dateOfTravel;
+    private Train train;
 }
